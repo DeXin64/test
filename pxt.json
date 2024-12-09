@@ -1,16 +1,16 @@
 {
-  "name": "FWDEDU-led",
+  "name": "FWD Education",
   "version": "0.0.0",
-  "description": "Climate Action Kit Gen. 2 LED",
+  "description": "Climate Action Kit Gen. 2 Kit",
   "license": "MIT",
   "dependencies": {
     "core": "*",
-    "jacdac": "github:microsoft/pxt-jacdac",
-    "jacdac-led": "github:microsoft/pxt-jacdac/led"
+    "jacdac": "github:microsoft/pxt-jacdac"
   },
   "files": [
     "README.md",
-    "client.ts"
+		"fwd-dial/client.ts",
+		"fwd-led/client.ts"
   ],
   "public": true,
   "supportedTargets": [
